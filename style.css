@@ -249,6 +249,80 @@ nav li {
     padding-bottom: 120px;
 }
 
+/* techwave section */
+.techwave-sec {
+    background-color: rgba(35, 14, 61, 1);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.techwave-sec h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.grid-box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+
+    background-color: rgba(53, 17, 101, 0.4);
+    border: none;
+    border-radius: 40px;
+
+}
+
+.grid-box-container h2 {
+    padding-top: 21px;
+    padding-bottom: 24px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.grid-box-container p {
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.box1 {
+    grid-row: span 2;
+    padding: 110px 40px;
+
+}
+
+.box2 {
+    grid-column: span 2;
+    padding: 42px 50px;
+}
+
+.box3 {
+    grid-column: span 2;
+    padding: 42px 50px;
+}
+
+.box4 {
+    grid-column: span 2;
+    padding: 45px 42px;
+}
+
+.box5 {
+
+    padding: 45px 42px;
+}
+
 
 /* responsive */
 
@@ -329,4 +403,36 @@ nav li {
         padding-bottom: 0px;
     }
 
+    /* grid items */
+    .grid-box-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .techwave-sec h1 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+
+    }
+
+    .techwave-sec {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        padding: 29px;
+    }
+
+    .grid-box-container h2 {
+
+        font-size: 1.38rem;
+    }
 }
