@@ -6,6 +6,10 @@
     font-optical-sizing: auto;
 }
 
+*html {
+    font-size: 16px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +38,7 @@
 }
 
 .for-margin {
-    max-width: 1200px;
+    max-width: 992px;
     margin: 0 auto;
 }
 
@@ -59,6 +63,8 @@
 nav a {
     text-decoration: none;
     color: white;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 nav li {
@@ -80,6 +86,8 @@ nav li {
     padding: 12px 16px;
     border: none;
     border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 /* banner */
@@ -105,13 +113,15 @@ nav li {
 }
 
 .circle-img {
-    height: 350px;
-    width: 350px;
+    /* height: 350px; */
+    width: 23vw;
+    max-width: 350px;
     position: relative;
 }
 
 .microphone {
     position: absolute;
+    width: 8vw;
 }
 
 .badge-container {
@@ -135,11 +145,15 @@ nav li {
 
 .banner-content h1 {
     margin-top: 40px;
+    font-size: 3.75rem;
+    font-weight: 800;
 }
 
 .banner-content p {
     margin-top: 24px;
     margin-bottom: 24px;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .banner-btn1 {
@@ -150,6 +164,9 @@ nav li {
     padding: 12px 20px;
     border: none;
     border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 600;
+
 }
 
 .banner-btn2 {
@@ -161,6 +178,8 @@ nav li {
     border: 1px solid #00FF88;
     border-radius: 10000px;
     background: transparent;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .banner-2-btn-container {
@@ -169,3 +188,13 @@ nav li {
     gap: 8px;
 
 }
+
+/* about the podcast section */
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width:576px) {}
