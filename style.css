@@ -291,4 +291,42 @@ nav li {
         max-width: 400px;
         line-height: 19px;
     }
+
+    /* for podcast section */
+    .Podcast-con {
+        padding-top: 40px;
+        max-width: 400px;
+
+    }
+
+    .Podcast-con h1 {
+        font-size: 2rem;
+
+    }
+
+    .p1 {
+        line-height: 20px;
+        padding-top: 16px;
+
+    }
+
+    .p-break {
+        display: none;
+    }
+
+    .p2 {
+        padding-bottom: 40px;
+    }
+
+    .highlight-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .highlight-container p {
+        padding-bottom: 0px;
+    }
+
 }
