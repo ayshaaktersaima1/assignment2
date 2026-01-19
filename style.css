@@ -38,8 +38,12 @@
 }
 
 .for-margin {
-    max-width: 992px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.ham-container {
+    display: none;
 }
 
 .nav-container {
@@ -97,6 +101,7 @@ nav li {
     width: 100%;
     height: 100vh;
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -128,6 +133,8 @@ nav li {
     position: absolute;
     height: 38px;
     width: 75px;
+    font-size: 1.125rem;
+    font-weight: 600;
     background-color: #00FF88;
     border-radius: 1000px;
     box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
@@ -178,7 +185,7 @@ nav li {
     border: 1px solid #00FF88;
     border-radius: 10000px;
     background: transparent;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -197,4 +204,43 @@ nav li {
 
 /* responsive */
 
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
+
+
+    .nav-list-container,
+    .nav-btn-container {
+        display: none;
+    }
+
+    .nav-container {
+        padding: 20px 20px;
+    }
+
+    .ham-container {
+        display: block;
+    }
+
+
+    .circle-img {
+        width: 43vw;
+        max-width: 350px;
+        position: relative;
+    }
+
+    .microphone {
+        position: absolute;
+        width: 11vw;
+    }
+
+    .banner-content h1 {
+        margin-top: 20px;
+        font-size: 2.5rem;
+
+    }
+
+    .banner-content p {
+        margin-top: 8px;
+        max-width: 400px;
+        line-height: 19px;
+    }
+}
