@@ -118,9 +118,9 @@ nav li {
 }
 
 .circle-img {
-    /* height: 350px; */
+
     width: 23vw;
-    max-width: 350px;
+    /* max-width: 350px; */
     position: relative;
 }
 
