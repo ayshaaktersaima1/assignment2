@@ -442,6 +442,44 @@ nav li {
     padding-bottom: 120px;
 }
 
+/* footer */
+footer {
+    background-image: url('./assets/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 412px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.content-foot {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.foot-sm {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer-logo {}
+
+.foot-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 42px;
+}
 
 
 /* responsive */
