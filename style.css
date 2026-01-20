@@ -120,13 +120,29 @@ nav li {
 .circle-img {
 
     width: 23vw;
-    /* max-width: 350px; */
     position: relative;
 }
+
 
 .microphone {
     position: absolute;
     width: 8vw;
+    animation: mic-pulse 2s infinite ease-in-out;
+}
+
+/* also animation */
+@keyframes mic-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .badge-container {
@@ -501,9 +517,9 @@ footer {
     }
 
 
+
     .circle-img {
         width: 43vw;
-        max-width: 350px;
         position: relative;
     }
 
