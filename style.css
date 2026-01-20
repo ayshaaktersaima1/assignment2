@@ -448,7 +448,8 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 412px;
+    /* height: 412px; */
+    padding: 100px 20px;
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -468,7 +469,6 @@ footer {
     font-weight: 400;
 }
 
-.footer-logo {}
 
 .foot-icon {
     display: flex;
@@ -596,6 +596,13 @@ footer {
     }
 
     /* feature section */
+
+    .featured-ep-sec h1 {
+        font-size: 2rem;
+        padding-bottom: 20px;
+
+    }
+
     .card-container {
         flex-direction: column;
         align-items: center;
@@ -610,7 +617,7 @@ footer {
     }
 
     .featured-ep-sec {
-        padding-top: 40px;
+        padding-top: 50px;
         padding-bottom: 60px;
     }
 
@@ -645,6 +652,24 @@ footer {
         justify-content: center;
     }
 
+    .meet-host-sec {
+        padding-bottom: 40px;
+    }
 
+    /* for footer */
+
+    footer {
+        background-size: 100% 100%;
+
+    }
+
+
+    .footer-icons {
+        grid-template-columns: repeat(2, auto);
+        column-gap: 42px;
+        row-gap: 21px;
+        place-items: center;
+
+    }
 
 }
