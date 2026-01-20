@@ -548,6 +548,8 @@ footer {
         margin-top: 8px;
         max-width: 400px;
         line-height: 19px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     /* for podcast section */
@@ -566,6 +568,7 @@ footer {
     .p1 {
         line-height: 20px;
         padding-top: 16px;
+
 
     }
 
