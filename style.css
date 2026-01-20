@@ -483,6 +483,7 @@ footer {
 .foot-sm {
     font-size: 1rem;
     font-weight: 400;
+    text-align: center;
 }
 
 
@@ -497,6 +498,9 @@ footer {
     column-gap: 42px;
 }
 
+.footer-logo img {
+    width: 100%;
+}
 
 /* responsive */
 
@@ -687,5 +691,11 @@ footer {
         place-items: center;
 
     }
+
+    .footer-logo img {
+        width: 60vw;
+    }
+
+
 
 }
