@@ -571,5 +571,42 @@ nav li {
         width: 100%;
     }
 
+    .featured-ep-sec {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    /* meet host section */
+
+    .meet-host h1 {
+        font-size: 2rem;
+        padding-bottom: 24px;
+
+    }
+
+    .alex-contents h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .alex-contents p {
+        text-align: center;
+    }
+
+    .alex-con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meet-host {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .icons-con {
+        justify-content: center;
+    }
+
+
 
 }
