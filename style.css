@@ -158,8 +158,8 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 10%;
-    left: 75%;
+    top: 3%;
+    left: 65%;
 }
 
 .banner-content {
@@ -519,7 +519,6 @@ footer {
     .ham-container {
         display: block;
     }
-
 
 
     .circle-img {
