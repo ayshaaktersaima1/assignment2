@@ -115,12 +115,12 @@ nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .circle-img {
 
     width: 23vw;
-    position: relative;
 }
 
 
@@ -158,8 +158,8 @@ nav li {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 28%;
-    left: 55%;
+    top: 10%;
+    left: 75%;
 }
 
 .banner-content {
