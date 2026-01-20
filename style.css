@@ -361,6 +361,7 @@ nav li {
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 24px;
     max-width: 380px;
+    padding-right: 16px;
 
 }
 
@@ -368,7 +369,7 @@ nav li {
 
 .card-1 h2 {
     padding-left: 24px;
-    padding-top: 24px;
+    padding-top: 16px;
 
 }
 
